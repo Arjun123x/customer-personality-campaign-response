@@ -2,7 +2,7 @@
 
 Customer Personality Analysis: Segmentation and Campaign Response Prediction
 
-GitHub link: `https://github.com/Arjun123x/customer-personality-campaign-response`
+GitHub repository: [customer-personality-campaign-response](https://github.com/Arjun123x/customer-personality-campaign-response)
 
 ## Project Objective
 
