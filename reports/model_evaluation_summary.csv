@@ -1,0 +1,19 @@
+feature_set,model_name,accuracy,precision_positive,recall_positive,f1_positive,roc_auc,pr_auc,true_negatives,false_positives,false_negatives,true_positives,notes
+A_baseline_customer_features,Dummy Majority,0.848758,0.0,0.0,0.0,0.5,0.151242,376,0,67,0,Majority-class baseline.
+A_baseline_customer_features,Logistic Regression,0.860045,0.571429,0.298507,0.392157,0.872043,0.48512,361,15,47,20,Scaled linear classifier without class weighting.
+A_baseline_customer_features,Logistic Regression Balanced,0.794582,0.411765,0.835821,0.551724,0.875933,0.485697,296,80,11,56,Scaled linear classifier with class_weight='balanced'.
+A_baseline_customer_features,Random Forest,0.85553,0.636364,0.104478,0.179487,0.866604,0.508393,372,4,60,7,Tree ensemble without class weighting.
+A_baseline_customer_features,Random Forest Balanced,0.857788,0.533333,0.477612,0.503937,0.867081,0.548583,348,28,35,32,Tree ensemble with class_weight='balanced'.
+A_baseline_customer_features,Gradient Boosting,0.871332,0.666667,0.298507,0.412371,0.863429,0.575303,366,10,47,20,Gradient boosting classifier; no class weighting.
+B_baseline_plus_cluster,Dummy Majority,0.848758,0.0,0.0,0.0,0.5,0.151242,376,0,67,0,Majority-class baseline.
+B_baseline_plus_cluster,Logistic Regression,0.860045,0.571429,0.298507,0.392157,0.870772,0.482613,361,15,47,20,Scaled linear classifier without class weighting.
+B_baseline_plus_cluster,Logistic Regression Balanced,0.794582,0.410448,0.820896,0.547264,0.875655,0.483054,297,79,12,55,Scaled linear classifier with class_weight='balanced'.
+B_baseline_plus_cluster,Random Forest,0.85553,0.636364,0.104478,0.179487,0.868391,0.512799,372,4,60,7,Tree ensemble without class weighting.
+B_baseline_plus_cluster,Random Forest Balanced,0.841986,0.47541,0.432836,0.453125,0.868073,0.550326,344,32,38,29,Tree ensemble with class_weight='balanced'.
+B_baseline_plus_cluster,Gradient Boosting,0.871332,0.666667,0.298507,0.412371,0.863151,0.562844,366,10,47,20,Gradient boosting classifier; no class weighting.
+C_full_with_campaign_history,Dummy Majority,0.848758,0.0,0.0,0.0,0.5,0.151242,376,0,67,0,Majority-class baseline.
+C_full_with_campaign_history,Logistic Regression,0.878104,0.651163,0.41791,0.509091,0.903362,0.630378,361,15,39,28,Scaled linear classifier without class weighting.
+C_full_with_campaign_history,Logistic Regression Balanced,0.82167,0.449153,0.791045,0.572973,0.906339,0.631201,311,65,14,53,Scaled linear classifier with class_weight='balanced'.
+C_full_with_campaign_history,Random Forest,0.86456,0.64,0.238806,0.347826,0.879624,0.577095,367,9,51,16,Tree ensemble without class weighting.
+C_full_with_campaign_history,Random Forest Balanced,0.86456,0.559322,0.492537,0.52381,0.878473,0.584194,350,26,34,33,Tree ensemble with class_weight='balanced'.
+C_full_with_campaign_history,Gradient Boosting,0.887133,0.717949,0.41791,0.528302,0.893518,0.611742,365,11,39,28,Gradient boosting classifier; no class weighting.

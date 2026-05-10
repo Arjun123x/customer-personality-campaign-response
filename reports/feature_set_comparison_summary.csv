@@ -1,0 +1,4 @@
+feature_set,best_model_for_feature_set,accuracy,precision_positive,recall_positive,f1_positive,roc_auc,pr_auc,interpretation
+A_baseline_customer_features,Gradient Boosting,0.871332,0.666667,0.298507,0.412371,0.863429,0.575303,"Baseline using customer demographics, relationship, spending, and purchase behavior."
+B_baseline_plus_cluster,Gradient Boosting,0.871332,0.666667,0.298507,0.412371,0.863151,0.562844,Tests whether the unsupervised cluster label improves performance beyond baseline features.
+C_full_with_campaign_history,Logistic Regression Balanced,0.82167,0.449153,0.791045,0.572973,0.906339,0.631201,Adds summarized historical campaign behavior; expected to improve response prediction if prior campaign behavior is informative.

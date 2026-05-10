@@ -1,0 +1,44 @@
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Python cache and build artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+build/
+dist/
+
+# Test, coverage, and tooling caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Local environment files
+.env
+.env.*
+
+# Data files kept local by default
+data/raw/*
+data/processed/*
+
+# Operating system and editor files
+.DS_Store
+.vscode/
+.idea/
+
+# Keep placeholder documentation files in otherwise ignored folders
+!data/raw/README.md
+!data/processed/README.md
+
+# Saved model artifacts kept local by default
+models/*.pkl
+models/*.joblib
+!models/README.md
